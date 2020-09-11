@@ -1,12 +1,4 @@
-body {
-background-image: url("/image/hotela.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-}
-
 ul {
- 
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -16,9 +8,7 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
-  right: 0;
-
- 
+  right: 0; 
 }
 
 li {
@@ -44,10 +34,20 @@ li a:hover:not(.active) {
   background-color:white;
 }
 
- .navbar {
+.navbar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
 
- }
+.backgroundImage {
+  background-image: url('./image/hotela.jpg');
+  background-position: 70% 50%;
+  background-size: cover;
+  height: 800px;
+}
+
+body {
+  margin: 0px;
+}
