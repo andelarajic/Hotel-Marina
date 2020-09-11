@@ -38,12 +38,12 @@ li a:hover:not(.active) {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .backgroundImage {
   background-image: url('./image/hotela.jpg');
-  background-position: 70% 50%;
+  background-position: 60% 50%;
   background-size: cover;
   height: 800px;
 }
