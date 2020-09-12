@@ -90,11 +90,13 @@ font-weight: 200;
 .form {
   text-align: center;
 
+
 } 
 
 .frstname {
   display: inline-block;
   margin: 50px;
+  font-size: 40px;
 
 
 }
@@ -121,4 +123,12 @@ font-weight: 200;
 .button {
   display: inline-block;
   margin: 80px;
+  width: 100px;
+}
+.box {
+  width: 700px;
+  height: 50px;
+}
+.box3 {
+
 }
