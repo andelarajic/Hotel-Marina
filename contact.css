@@ -88,6 +88,37 @@ font-weight: 200;
 }
 
 .form {
-  
-  
+  text-align: center;
+
 } 
+
+.frstname {
+  display: inline-block;
+  margin: 50px;
+
+
+}
+
+.lastname {
+  display: inline-block;
+  margin: 50px ;
+}
+.phonenumber {
+  display: inline-block;
+  margin:50px ;
+}
+
+.email {
+  display: inline-block;
+  margin: 50px;
+}
+
+.coments {
+  display: inline-block;
+  margin: 40px;
+}
+
+.button {
+  display: inline-block;
+  margin: 80px;
+}
