@@ -57,21 +57,23 @@ font-weight: 300;
 
 .name {
   display: inline-block;
-  margin: 50px;
+  margin: 30px;
   font-size: 25px;
-  padding: 1px;
   text-align: start;
 }
 .coments {
   display: inline-block;
   margin: 40px;
-  font-size: 30px;
+  font-size: 25px;
   text-align: start;
 }
 
 .button {
   display: inline-block;
   margin: 60px;
+  width: 150px;
+  height: 50px;
+  
 
   
 }
@@ -90,6 +92,10 @@ font-weight: 300;
   max-width: 100px;
   border: 1px solid black;
   
- 
-  
+}
+
+.box1 {
+  font-size: 19px;
+ text-align: center;
+ font-family: Raleway, sans-serif;
 }
