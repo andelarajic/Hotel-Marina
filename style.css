@@ -42,3 +42,25 @@ ul {
     justify-content: space-around;
     
   }
+
+  .footer {
+    height: 180px;
+  background-color:#185C5E;
+  margin: 0;
+  display: flex; 
+  justify-content: center;
+  width: 100%;
+  }
+  .copy {
+  
+  font-family: Raleway, sans-serif;
+  color: white;
+  text-align: center;
+  
+  }
+  
+  .icons {
+    color: white;
+    padding: 40px;
+    
+  }
