@@ -117,7 +117,13 @@ width: 100%;
 font-family: Raleway, sans-serif;
 color: white;
 text-align: center;
-margin:130px ;
+ 
 
 
+}
+
+.icons {
+  color: white;
+  padding: 40px;
+  
 }
