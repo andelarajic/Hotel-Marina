@@ -7,7 +7,8 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
+ 
 }
 
 .header {
@@ -54,6 +55,9 @@ font-weight: 300;
   
 
 } 
+.form-inline {
+  width: 100%;
+}
 
 .name {
   display: inline-block;
@@ -89,13 +93,31 @@ font-weight: 300;
 
   display: flex;
   flex-direction: row;
-  max-width: 100px;
+  width: 80px;
   border: 1px solid black;
   
 }
 
 .box1 {
-  font-size: 19px;
- text-align: center;
- font-family: Raleway, sans-serif;
+font-size: 19px;
+text-align: center;
+font-family: Raleway, sans-serif;
+}
+
+.footer {
+  height: 180px;
+background-color: brown;
+margin: 0;
+display: flex; 
+justify-content: center;
+width: 100%;
+}
+.copy {
+
+font-family: Raleway, sans-serif;
+color: white;
+text-align: center;
+margin:130px ;
+
+
 }
