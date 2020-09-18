@@ -1,6 +1,6 @@
 .images5 {
-    width: 100%;
-    height: 1000px;
+   width: 100%;
+    height: 950px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,9 +8,9 @@
     animation: images5 10s linear infinite 5s;
     animation-timing-function: step-end;
     background-image: url("Image/hotel3pool.jpg");
-    
-   
-
+    margin-top: 0;
+    display: flex;
+    background-position: 60% 50%;
 }
 
 @keyframes images5 {
@@ -20,6 +20,5 @@
    60% {
     background-image: url("/Image/see.jpg");
   }
-
-
 }
+
