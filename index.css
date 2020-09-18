@@ -5,8 +5,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: images5 5s linear infinite 5s;
-    animation-timing-function: ease;
+    animation: images5 10s linear infinite 5s;
+    animation-timing-function: step-end;
     background-image: url("Image/hotel3pool.jpg");
     
    
@@ -14,10 +14,10 @@
 }
 
 @keyframes images5 {
-   50% {
+  20% {
     background-image: url("/Image/hotela.jpg");
         }
-   100% {
+   60% {
     background-image: url("/Image/see.jpg");
   }
 
