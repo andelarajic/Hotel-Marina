@@ -1,2 +1,25 @@
+.images5 {
+    width: 100%;
+    height: 1000px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: images5 5s linear infinite 5s;
+    animation-timing-function: ease;
+    background-image: url("Image/hotel3pool.jpg");
+    
+   
 
-  
+}
+
+@keyframes images5 {
+   50% {
+    background-image: url("/Image/hotela.jpg");
+        }
+   100% {
+    background-image: url("/Image/see.jpg");
+  }
+
+
+}
