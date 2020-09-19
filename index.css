@@ -26,6 +26,15 @@
     background-image: url("/Image/see.jpg");
   }
 }
+.text {
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  font-family:   Raleway, sans-serif;
+  font-weight: 100;
+  color: white;
+  padding-top: 300px;
+}
 
 .h1Index {
   text-align: center;
