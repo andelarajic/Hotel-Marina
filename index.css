@@ -17,6 +17,7 @@
     background-position: 60% 50%;
 }
 
+
 @keyframes images5 {
   20% {
     background-image: url("/Image/hotela.jpg");
@@ -56,7 +57,7 @@ margin: 0 0 150px;
 #transbox {
   background-color: rgba(255,255,255,0.90);
   padding: 20px;
-  margin: 60px;
+  margin: 0px;
   position: absolute;
   top: 45%;
   left: 25%;
@@ -93,6 +94,7 @@ h1 {
   text-underline-position: under;
   text-underline-offset: 15px;
   text-decoration-thickness: 1px;
+  text-align: start;
   
 }
 p {
@@ -121,4 +123,3 @@ button {
   position: relative;
   
 }
-
