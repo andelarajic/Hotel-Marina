@@ -1,5 +1,9 @@
+.body {
+  margin: 0;
+  
+}
+
 .images5 {
-   width: 100%;
     height: 950px;
     background-position: center center;
     background-size: cover;
@@ -20,5 +24,33 @@
    60% {
     background-image: url("/Image/see.jpg");
   }
+}
+
+.h1Index {
+  text-align: center;
+  padding: 40px;
+  font-size: 50px;
+  font-family:   Raleway, sans-serif;
+  font-weight: 100;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 1px;
+  padding: 70px;
+}
+
+.pIndex {
+text-align: center;
+font-size: 20px;
+font-family:   Raleway, sans-serif;
+font-weight: 100;
+margin: 0 0 150px;
+
+}
+
+.transpImage {
+  background-size: cover;
+  height: 800px;
+  width: 100%;
 }
 
