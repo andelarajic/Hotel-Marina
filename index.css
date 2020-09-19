@@ -1,6 +1,5 @@
-.body {
-  margin: 0;
-  
+body {
+  margin: 0;  
 }
 
 .images5 {
@@ -9,7 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: images5 10s linear infinite 5s;
+    animation: images5 15s linear infinite;
     animation-timing-function: step-end;
     background-image: url("Image/hotel3pool.jpg");
     margin-top: 0;
@@ -17,15 +16,15 @@
     background-position: 60% 50%;
 }
 
-
 @keyframes images5 {
-  20% {
+  33% {
     background-image: url("/Image/hotela.jpg");
-        }
-   60% {
+  }
+  66% {
     background-image: url("/Image/see.jpg");
   }
 }
+
 .text {
   width: 100%;
   text-align: center;
@@ -60,11 +59,16 @@ margin: 0 0 150px;
 .transpImage {
   background-size: cover;
   width: 100%;
-  height: 800%;
+  height: 800px;
 }
 
-.transbox {
-  position: unset;
+.image-test {
+  background-image: url("Image/hotela.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+#transbox {
 background-color: white;
 opacity: 0.6;
 text-align: center;
