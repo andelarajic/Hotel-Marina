@@ -63,18 +63,18 @@ margin: 0 0 150px;
   height: 800%;
 }
 
-#transbox {
-  background-color: rgba(255,255,255,0.90);
-  padding: 20px;
-  margin: 0px;
-  position: absolute;
-  top: 55%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  width: 600px;
-  height: 600px;
-  opacity: 1;
+.transbox {
+  position: unset;
+background-color: white;
+opacity: 0.6;
+text-align: center;
+width: 600px;
+height: 600px;
+
+
 }
+
+
  h3 {
   text-align: start;
   font-weight: 500;
@@ -115,7 +115,7 @@ p {
 }
  
 button {
- position: relative;
+
  top: 30px;
   width: 200px;
   height: 60px;
@@ -128,7 +128,8 @@ button {
 .container {
  
   width: 100% ;
-  margin: 0 auto;
-  position: relative;
+  
+  
+  
   
 }
