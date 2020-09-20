@@ -21,7 +21,7 @@ body{
   text-underline-position: under;
   text-underline-offset: 15px;
   text-decoration-thickness: 1px;
-  transform: translate(0, 30px); 
+  
   }
 
   .AboutHotel p {
@@ -30,10 +30,10 @@ body{
     font-size: 20px;
     font-family:   Raleway, sans-serif;
     font-weight: 300;
-    transform: translate(0, -40px); 
+   
   }
 
    
-
+ 
 
    
