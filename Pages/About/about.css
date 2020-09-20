@@ -36,10 +36,11 @@ body{
   .test-box {
    width: 100%;
    
+   
   }
-
-  .test-box h2 {
-  width: 50%;
+  .test-box h1 {
+  position: relative;
+  width: 100%;
   color: black;
   text-align: start;
   font-size: 50px;
@@ -49,35 +50,36 @@ body{
   text-underline-position: under;
   text-underline-offset: 15px;
   text-decoration-thickness: 1px;
-  
+  top: -600px;
+  left: 100px;
  
   }
 
   .test-box p {
+    position: relative;
     text-align: start;
-    padding: 10px ;
     font-size: 20px;
     font-family:   Raleway, sans-serif;
     font-weight: 300;
-    
-    margin-left: 100px;
+   top: -500px;
+   left: 110px;
+   padding: 10px;
+   
   }
    
-  .test-box img {
-    width: 50%;
+  img {
+    width:100%;
     float: right;
     height: 700px;
    
   }
- 
   .test-box2 {
-    height: 700px;
     background-color: #185C5E;
     
   }
 
-.test-box2 h2 {
-float: right;
+.test-boxcolor h1 {
+position: relative;
 color: black;
   text-align: start;
   font-size: 50px;
@@ -87,27 +89,29 @@ color: black;
   text-underline-position: under;
   text-underline-offset: 15px;
   text-decoration-thickness: 1px;
+top: -400px;
+
   
 }
    
-.test-box2 p {
-float: right;
-width: 50%;
+.test-boxcolor p {
+position: relative;
+width: 100%;
 text-align:start;
   font-size: 20px;
   font-family:   Raleway, sans-serif;
   font-weight: 300;
+  top: -400px;
   
-
   }
    
-.test-box2 img {
-  width: 50%;
-  float: left;
-  height: 700px;
+.test-boxcolor img  {
+width: 100%;
+  
+  
 }
 
-.test-box3 {
+/*.test-box3 {
   width: 100%;
 
 }
