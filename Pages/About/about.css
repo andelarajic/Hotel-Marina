@@ -33,7 +33,43 @@ body{
    
   }
 
+  .test-box {
+   width: 100%;
+    top:1200px;
+    transform: translate(0, -300px);
+  }
+
+  .test-box h2 {
+  width: 50%;
+  color: black;
+  text-align: start;
+  font-size: 50px;
+  font-family:   Raleway, sans-serif;
+  font-weight: 100;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 1px;
+  transform: translate(100px, 500px);
+ 
+  }
+
+  .test-box p {
+    text-align: start;
+    padding: 10px ;
+    font-size: 20px;
+    font-family:   Raleway, sans-serif;
+    font-weight: 300;
+    transform: translate(0, 550px);
+    margin-left: 100px;
+  }
    
+  .test-box img {
+    width: 50%;
+    float: right;
+    height: 700px;
+   
+  }
  
 
    
