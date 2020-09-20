@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+  
+}
+
+.backgroundImageA {
+    background-image: url("/Image/hote.jpg");
+    background-position: 60% 50%;
+    background-size: cover;
+    height: 750px;
+    
+  }
+   
+  .AboutHotel h1 {
+ text-align: center;
+  padding: 40px;
+  font-size: 50px;
+  font-family:   Raleway, sans-serif;
+  font-weight: 100;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 1px;
+  transform: translate(0, 30px); 
+  }
+
+  .AboutHotel p {
+    text-align: center;
+    padding: 100px ;
+    font-size: 20px;
+    font-family:   Raleway, sans-serif;
+    font-weight: 300;
+    transform: translate(0, -40px); 
+  }
+
+   
+
+
+   
