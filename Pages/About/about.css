@@ -37,6 +37,7 @@ body{
    width: 100%;
    
    
+   
   }
   .test-box h1 {
   position: relative;
@@ -73,9 +74,13 @@ body{
     height: 700px;
    
   }
+  
+
   .test-box2 {
     background-color: #185C5E;
-    
+   width: 100%;
+  margin-top: -300px;
+   
   }
 
 .test-boxcolor h1 {
@@ -89,8 +94,8 @@ color: black;
   text-underline-position: under;
   text-underline-offset: 15px;
   text-decoration-thickness: 1px;
-top: -400px;
-
+ top: -500px;
+left: 130px;
   
 }
    
@@ -101,13 +106,16 @@ text-align:start;
   font-size: 20px;
   font-family:   Raleway, sans-serif;
   font-weight: 300;
-  top: -400px;
+top: -450px;
+ left: 150px;
   
   }
    
 .test-boxcolor img  {
+
 width: 100%;
-  
+
+   
   
 }
 
