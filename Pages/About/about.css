@@ -34,15 +34,14 @@ body{
   }
 
   .test-box {
-   width: 100%;
-   
-   
-   
+    width: 100%;
+    
   }
-  .test-box h1 {
+
+
+.test-boxa h1 {
   position: relative;
-  width: 100%;
-  color: black;
+  float:left;
   text-align: start;
   font-size: 50px;
   font-family:   Raleway, sans-serif;
@@ -51,41 +50,41 @@ body{
   text-underline-position: under;
   text-underline-offset: 15px;
   text-decoration-thickness: 1px;
-  top: -600px;
-  left: 100px;
- 
-  }
+  
 
-  .test-box p {
-    position: relative;
-    text-align: start;
+ 
+ 
+}
+
+.test-boxa p {
+  position: unset;
+  float: left;
+  text-align:start;
+  padding: 4px;
     font-size: 20px;
     font-family:   Raleway, sans-serif;
     font-weight: 300;
-   top: -500px;
-   left: 110px;
-   padding: 10px;
+    clear: both;
    
-  }
-   
-  img {
-    width:100%;
-    float: right;
-    height: 700px;
-   
-  }
   
+}
 
-  .test-box2 {
-    background-color: #185C5E;
-   width: 100%;
-  margin-top: -300px;
-   
-  }
+.test-boxb img {
+  width: 50%;
+  height: 600px;
+  float: right;
+ 
+  
+}
 
-.test-boxcolor h1 {
-position: relative;
-color: black;
+.test-box2 {
+  width: 100%;
+  
+}
+
+.test-boxc h1 {
+  position: relative;
+  float: right;
   text-align: start;
   font-size: 50px;
   font-family:   Raleway, sans-serif;
@@ -94,68 +93,26 @@ color: black;
   text-underline-position: under;
   text-underline-offset: 15px;
   text-decoration-thickness: 1px;
-float: right;
-top: 100px;
-left: 430px;
-  
+
+ 
+ 
+ 
 }
-   
-.test-boxcolor p {
-position: relative;
-width: 100%;
+
+.test-boxc p {
+  position: relative;
+float: right;
 text-align:start;
   font-size: 20px;
   font-family:   Raleway, sans-serif;
   font-weight: 300;
- float: right;
-  left: 1000px;
-  top: 150px;
-  }
-   
-.test-boxcolor img  {
-float: left;
-width: 100%;
-margin-top: -378px;
-   
+  clear: both;
   
 }
 
-.test-box3 {
-  width: 100%;
-
-}
-
-.test-box3 h1 {
+.test-boxd img {
   position: relative;
-  float: left;
-  color: black;
-  text-align: start;
-  font-size: 50px;
-  font-family:   Raleway, sans-serif;
-  font-weight: 100;
-  text-decoration: underline;
-  text-underline-position: under;
-  text-underline-offset: 15px;
-  text-decoration-thickness: 1px;
-  top:-450px;
-  left: 110px;
-}
-
-.test-box3 p {
-  position: relative;
-  padding: 10px;
-  width: 50%;
-  text-align:start;
-    font-size: 20px;
-    font-family:   Raleway, sans-serif;
-    font-weight: 300;
-top: -350px;
-left: 130px;
-}
-
-.test-box3 img {
-  width: 100%;
-  height: 700px;
-  float: right;
- 
+width: 50%;
+float: left;
+height: 600px;
 }
