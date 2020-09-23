@@ -1,83 +1,76 @@
-body {
-  margin: 0;  
-}
-
-.images5 {
+.headerImages {
     height: 1000px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: images5 15s linear infinite;
+    animation: headerImages 15s linear infinite;
     animation-timing-function: step-end;
-    background-image: url("Image/hotel3pool.jpg");
+    background-image: url("Images/hotel3pool.jpg");
     margin-top: 0;
     display: flex;
     background-position: 60% 50%;
 }
 
-@keyframes images5 {
+@keyframes headerImages {
   33% {
-    background-image: url("/Image/hotela.jpg");
+    background-image: url("/Images/hotela.jpg");
   }
   66% {
-    background-image: url("/Image/see.jpg");
+    background-image: url("/Images/see.jpg");
   }
 }
 
-.text {
+.headerDescription {
   width: 100%;
   text-align: center;
   font-size: 80px;
   font-family:   Raleway, sans-serif;
   font-weight: 100;
   color: white;
+  text-shadow: 3px 3px #000000;
   padding-top: 300px;
 }
 
-.h1Index {
+.descriptionText {
   text-align: center;
+  font-family: Raleway, sans-serif;
+  padding: 50px 25px;
+}
+
+.descriptionText h1 {
   font-size: 50px;
-  font-family:   Raleway, sans-serif;
   font-weight: 100;
   text-decoration: underline;
   text-underline-position: under;
   text-underline-offset: 15px;
   text-decoration-thickness: 1px;
-  padding: 120px;
+  margin-bottom: 75px;
 }
 
-.pIndex {
+.descriptionText p {
   position: relative;
-text-align: center;
-font-size: 20px;
-font-family: Raleway, sans-serif;
-font-weight: 100;
-top: -60px;
-
+  font-size: 20px;
+  font-weight: 100;
 }
 
-
-.image-test {
-  background-image: url("Image/hotela.jpg");
+.infoDiningBackground {
+  background-image: url("Images/hotela.jpg");
   background-size: cover;
   height: 800px;
 }
 
-#transbox {
+#infoDiningTransbox {
   background:rgba(255,255,255,0.7);
   padding:35px;
   text-align:center;
   width: 500px;
   height: 600px;
-  top: 130px;
-  left: 90px;
-  transform: translate(150px, 70px); 
-  
+  transform: translate(100px, 100px); 
 }
 
 
- h3 {
+.infoDiningBackground h3 {
   text-align: start;
   font-weight: 500;
   color:black;
@@ -85,7 +78,7 @@ top: -60px;
   font-family: Raleway, sans-serif;
 }
 
-h2 {
+.infoDiningBackground h2 {
   position: relative;
   font-size: 20px;
   font-weight: 100;
@@ -95,7 +88,7 @@ h2 {
   font-family: Raleway, sans-serif;
 }
 
-h1 {
+.infoDiningBackground h1 {
   position: relative;
   font-size:50px ;
   top: -50px;
@@ -108,7 +101,7 @@ h1 {
   text-align: start;
   
 }
-p {
+.infoDiningBackground p {
   text-align: start;
   font-family: Raleway, sans-serif;
   font-weight: 100;
@@ -117,21 +110,9 @@ p {
 }
  
 button {
-
- 
   width: 200px;
   height: 60px;
   background-color: #185C5E;
   color: white;
   font-size: 20px;
-
-  
-}
-.container {
- 
-  width: 100% ;
-  
-  
-  
-  
 }
