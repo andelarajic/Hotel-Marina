@@ -58,22 +58,24 @@ font-weight: 300;
 .form {
   width: 100%;
   text-align: center;
- 
-  
+
 }
+
 
 .firstName {
-  
+ 
   width: 50%;
   float: left;
-
 }
 
+
 .firstName input {
-  
+  margin-left: 300px;
   width: 60%;
   height: 40px;
   border: 1px solid black;
+ 
+  margin-bottom: 40px;
  
 }
 
@@ -81,27 +83,35 @@ font-weight: 300;
   width: 50%;
   float: right;
 }
-.lastName input {
+.lastName label {
+  
+  margin-right:650px;
+}
 
+.lastName input {
+margin-left: -300px;
   width: 60%;
   height: 40px;
   border: 1px solid black;
+  margin-bottom: 40px;
   
 }
 
 .email {
   width: 50%;
   float: left;
- 
-  
- 
+}
+
+.email label {
+  margin-left: -20px;
 }
 .email input {
   
   width: 60%;
   height: 40px;
   border: 1px solid black;
-  
+  margin-left: 300px;
+  margin-bottom: 40px;
  
 }
 
@@ -109,11 +119,17 @@ font-weight: 300;
   width: 50%;
   float: right;
 }
+
+.phone label {
+  margin-right: 630px;
+}
 .phone input {
 
 width: 60%;
 height: 40px;
 border: 1px solid black;
+margin-left: -300px;
+margin-bottom: 40px;
 
 }
 
@@ -121,20 +137,32 @@ border: 1px solid black;
   text-align: center;
 
 }
+.textArea label {
+ margin-right: 950px;
+}
 
 .textArea textarea {
   border: 1px solid black;
+  margin-bottom: 40px;
 }
 
 
 .checkBox {
  font-size: 20px;
 text-align: center;
+margin-bottom: 40px;
+
 }
 
 .button button {
-  height: 40px;
+
   text-align: center;
-  width: 100px;
   
+  margin-bottom: 40px;
+  
+  width: 150px;
+  height: 50px;
+  background-color: #185C5E;
+  color: white;
+  font-size: 20px;
 }
