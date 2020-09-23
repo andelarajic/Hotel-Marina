@@ -58,21 +58,23 @@ font-weight: 300;
 .form {
   width: 100%;
   text-align: center;
- 
+  
   
 }
 
 .firstName {
-  position: relative;
+  
   width: 50%;
   float: left;
-  font-size: 20px;
+  
 }
 
 .firstName input {
+  
   width: 60%;
   height: 40px;
   border: 1px solid black;
+ 
 }
 
 .lastName {
@@ -80,20 +82,27 @@ font-weight: 300;
   float: right;
 }
 .lastName input {
+
   width: 60%;
   height: 40px;
   border: 1px solid black;
+  
 }
 
 .email {
   width: 50%;
   float: left;
  
+  
+ 
 }
 .email input {
+  
   width: 60%;
   height: 40px;
   border: 1px solid black;
+  
+ 
 }
 
 .phone {
@@ -101,9 +110,11 @@ font-weight: 300;
   float: right;
 }
 .phone input {
+
 width: 60%;
 height: 40px;
 border: 1px solid black;
+
 }
 
 .textArea {
@@ -111,13 +122,19 @@ border: 1px solid black;
 
 }
 
+.textArea textarea {
+  border: 1px solid black;
+}
+
 
 .checkBox {
- 
+ font-size: 20px;
 text-align: center;
 }
 
-.button {
-  height: 100px;
+.button button {
+  height: 40px;
   text-align: center;
+  width: 100px;
+  
 }
