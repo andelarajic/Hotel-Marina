@@ -5,63 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="../../style.css">
-
+    <link rel="stylesheet" href="/style.css">
     <script src="https://use.fontawesome.com/67a57f4ead.js"></script>
-    <title>Hotel Marina Dubai</title>
+    <title>Contact</title>
 </head>
 
 <body>
     <ul class="navbar">
-        <li><a href="../../index.html">Marina Dubai</a></li>
+        <li><a href="/index.html">Marina Dubai</a></li>
         <li><a href="../About/about.html">About</a></li>
         <li><a href="../Gallery/gallery.html">Gallery</a></li>
         <li><a href="../Contact/contact.html">Contact</a></li>
     </ul>
 
-    <div class="backgroundImage"></div>
+    <div class="headerImage"></div>
     <div>
-        <h1 class="header">Get in Touch</h1>
-        <p class="paragraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam harum ad, delectus beataesint qui!</p>
-        <h2 class="header2">Directions & Parking</h2>
-        <p class="paragraf">Marina del Rey Hotel<br>13534 Dubai<br>Marina Dubai, CA 90292<br>(310) 301-1000</p>
-        <h2 class="header2">Hotel Parkering</h2>
-        <p class="paragraf">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nostrum!</p>
-        <h1 class="contactUs">Contact Us</h1>
-        <div class="form">
+        <div class="descriptionText">
+            <h1>Get in Touch</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam harum ad, delectus beataesint qui!</p>
+        </div>
+        <div class="informationText">
+            <h2>Directions & Parking</h2>
+            <p>Marina del Rey Hotel<br>13534 Dubai<br>Marina Dubai, CA 90292<br>(310) 301-1000</p>
+            <h2>Hotel Parkering</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nostrum!</p>
+        </div>
+    </div>
         
-      
-            <form class="form">
-                <div class="firstName">
-                <label for="fname">First name:</label><br>
-                <input type="text" name="fname" placeholder="Stefan"><br><br>
+    <div class="form">
+        <h1>Contact Us</h1>
+        <form>
+            <div class="inputSection">
+                <div class="innerInputSection">
+                    <label>First name:</label>
+                    <input type="text" name="fname" placeholder="Stefan">
+                </div>
             </div>
-            <div class="lastName">
-                <label for="lname">Last name:</label><br>
-                <input type="text" name="lname" placeholder="Doe"><br><br>
+            <div class="inputSection">
+                <div class="innerInputSection">
+                    <label>Last name:</label>
+                    <input type="text" name="lname" placeholder="Doe">
+                </div>
             </div>
-            <div class="email">
-                <label for="email">Email:</label><br>
-                <input type="email" name="email" placeholder="andjela@gmail.com" autocomplete="off"><br><br>
+            <div class="inputSection">
+                <div class="innerInputSection">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="andjela@gmail.com" autocomplete="off">
+                </div>
             </div>
-            <div class="phone">
-                <label for="phone">Phone Number:</label><br>
-                <input type="tel" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+            <div class="inputSection">
+                <div class="innerInputSection">
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
             </div>
-                <div class="textArea">
-                    <label for="comment">Comment</label><br>
-                    <textarea name="comment" rows="10" cols="145" placeholder=""></textarea>
-               </div>
-               <div class="checkBox">
-                <input type="checkbox" name="checkbox" value="checkBox">
-                <label for="vehicle1">I have read and agree to the Privacy Policy.</label><br>
-                <input type="checkbox" name="checkbox" value="checkBox">
-                <label for="vehicle2">Yes, I would like to receive emails with exclusive specials and offers.</label><br>
-               </div>
-               <div class="button">
+            <div class="commentSection">
+                <label>Comment</label><br>
+                <textarea name="comment" rows="7" placeholder="Text here <3"></textarea>
+            </div>
+
+            <div class="checkBoxSection">
+                <div>
+                    <input type="checkbox" name="checkbox" value="checkBox">
+                    <label for="vehicle1">I have read and agree to the Privacy Policy.</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkbox" value="checkBox">
+                    <label for="vehicle2">Yes, I would like to receive emails with exclusive specials and offers.</label>
+                </div>
+            </div>
+            <div class="button">
                 <button type="button">SUBMIT</button>
-               </div>
-              </form>
+            </div>
+        </form>
+    </div>  
+        
     <div class="footer">
         <footer>
             <div class="icons">
@@ -74,6 +92,5 @@
         </footer>
     </div>
 </body>
-</div>
 
 </html>

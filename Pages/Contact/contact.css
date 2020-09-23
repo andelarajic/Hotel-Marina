@@ -1,168 +1,133 @@
-
-.backgroundImage {
-  background-image: url('../../Image/hotela.jpg');
+.headerImage {
+  background-image: url('/Images/hotela.jpg');
   background-position: 60% 50%;
   background-size: cover;
   height: 750px;
 }
 
-body {
-  margin: 0;
- 
+.descriptionText {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  padding: 50px 25px;
 }
 
-.header {
-  text-align: center;
-  padding: 40px;
+.descriptionText h1 {
   font-size: 50px;
-  font-family:   Raleway, sans-serif;
   font-weight: 100;
   text-decoration: underline;
   text-underline-position: under;
   text-underline-offset: 15px;
   text-decoration-thickness: 1px;
- 
-  
+  margin-bottom: 75px;
 }
 
-.paragraf {
-text-align: center;
-padding: 10px;
-font-size: 20px;
-font-family:   Raleway, sans-serif;
-font-weight: 300;
+.descriptionText p {
+  font-size: 20px;
+  font-weight: 300;
 }
 
-.header2 {
+.informationText {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  padding: 0px 25px;
+}
+
+.informationText h1 {
   text-align: center;
   padding: 15px;
   font-size: 30px;
-  font-family:   Raleway, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 500;
- 
 }
 
-.contactUs {
-  text-align: center;
-  font-family: Raleway, sans-serif;
-  font-weight: 100;
-  padding: 100px;
-  font-size: 50px;
-  text-decoration: underline;
-  text-underline-position: under;
-  text-underline-offset: 15px;
-  text-decoration-thickness: 1px;
- 
+.informationText p {
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .form {
   width: 100%;
   text-align: center;
-
+  padding: 30px 25px;
 }
 
+.form h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 1px;
+}
 
-.firstName {
- 
+.inputSection {
   width: 50%;
   float: left;
 }
 
-
-.firstName input {
-  margin-left: 300px;
-  width: 60%;
-  height: 40px;
-  border: 1px solid black;
- 
-  margin-bottom: 40px;
- 
-}
-
-.lastName {
-  width: 50%;
+.innerInputSection {
+  width: 70%;
   float: right;
-}
-.lastName label {
-  
-  margin-right:650px;
+  padding: 0 15%;
+  margin: 20px 0;
 }
 
-.lastName input {
-margin-left: -300px;
-  width: 60%;
-  height: 40px;
-  border: 1px solid black;
-  margin-bottom: 40px;
-  
-}
-
-.email {
-  width: 50%;
+.innerInputSection label {
   float: left;
+  font-size: 25px;
 }
 
-.email label {
-  margin-left: -20px;
-}
-.email input {
-  
-  width: 60%;
+.innerInputSection input {
+  align-items: right;
   height: 40px;
+  width: 100%;
+  min-width: 300px;
   border: 1px solid black;
-  margin-left: 300px;
-  margin-bottom: 40px;
- 
+  font-size: 20px;
 }
 
-.phone {
-  width: 50%;
-  float: right;
-}
-
-.phone label {
-  margin-right: 630px;
-}
-.phone input {
-
-width: 60%;
-height: 40px;
-border: 1px solid black;
-margin-left: -300px;
-margin-bottom: 40px;
-
-}
-
-.textArea {
+.commentSection {
   text-align: center;
-
-}
-.textArea label {
- margin-right: 950px;
+  width: 100%;
 }
 
-.textArea textarea {
+.commentSection label {
+  font-size: 25px;
+}
+
+.commentSection textarea {
+  font-size: 20px;
   border: 1px solid black;
-  margin-bottom: 40px;
+  resize: horizontal;
+  width: 75%;
 }
 
 
-.checkBox {
- font-size: 20px;
-text-align: center;
-margin-bottom: 40px;
+.checkBoxSection {
+  text-align: center;
+  margin: 10px 0;
+}
 
+.checkBoxSection div {
+  margin: 10px 0;
+}
+
+.checkBoxSection input {
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.checkBoxSection label {
+  font-size: 20px;
 }
 
 .button button {
-
   text-align: center;
-  
-  margin-bottom: 40px;
-  
   width: 150px;
   height: 50px;
   background-color: #185C5E;
   color: white;
   font-size: 20px;
+  margin: 30px 0;
 }
