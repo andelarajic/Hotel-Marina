@@ -53,74 +53,71 @@ font-weight: 300;
   text-underline-offset: 15px;
   text-decoration-thickness: 1px;
  
-  
 }
 
 .form {
+  width: 100%;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  box-sizing: border-box;
  
-    
-} 
-.form-inline {
- width: 800px;
-
+  
 }
 
-.name {
+.firstName {
   position: relative;
-  display: inline-block;
-  margin: 30px;
-  font-size: 30px;
-  text-align: start;
+  width: 50%;
+  float: left;
+  font-size: 20px;
 }
-.coments {
-  display: inline-block;
-  margin: 40px;
-  font-size: 30px;
-  text-align: start;
+
+.firstName input {
+  width: 60%;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.lastName {
+  width: 50%;
+  float: right;
+}
+.lastName input {
+  width: 60%;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.email {
+  width: 50%;
+  float: left;
+ 
+}
+.email input {
+  width: 60%;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.phone {
+  width: 50%;
+  float: right;
+}
+.phone input {
+width: 60%;
+height: 40px;
+border: 1px solid black;
+}
+
+.textArea {
+  text-align: center;
+
+}
+
+
+.checkBox {
+ 
+text-align: center;
 }
 
 .button {
-  display: inline-block;
-  margin: 60px;
-  width: 150px;
-  height: 50px;
-  background-color: #185C5E;
-  color: white;
-  font-size: 20px;
-  
-
+  height: 100px;
+  text-align: center;
 }
-.box {
-  display:flex;
-  flex-direction: row;
-  width: 300px;
-  height: 50px;
-  border: 1px solid black;
-  font-size: 15px;
-  
-
-  
-}
-.box3 {
- 
-border: 1px solid rgba(0,0,0,0.4);
-font-size: 18px;
-background: none;
-width: 100%;
-margin-bottom: 30px;
-
-
-}
-
-.box1 {
-font-size: 20px;
-text-align: center;
-font-family: Raleway, sans-serif;
-}
-
