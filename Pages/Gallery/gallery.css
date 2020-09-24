@@ -1,6 +1,8 @@
 .gallery-item {
+  display: list-item;
  justify-content: space-around;
-  padding: 80px;
+padding: 80px;
+
   
 }
 
