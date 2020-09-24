@@ -1,14 +1,11 @@
 .gallery-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: space-around;
-  min-width:400px ;
-  margin: 75px;
+ justify-content: space-around;
+  padding: 80px;
+  
 }
 
-.images {
-  border: 10px solid white;
+.image {
+  border: 7px solid white;
 }
 
 .image:hover {
