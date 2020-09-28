@@ -13,13 +13,29 @@
 </head>
 
 <body>
-    <ul class="navbar">
-        <li><a href="index.html">Marina Dubai</a></li>
-        <li><a href="/Pages/About/about.html">About</a></li>
-        <li><a href="/Pages/Gallery/gallery.html">Gallery</a></li>
-        <li><a href="/Pages/Contact/contact.html">Contact</a></li>
-    </ul>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Marina Dubai</a>
+        <a href="Pages/About/about.html">About Us</a>
+        <a href="Pages/Gallery/gallery.html">Gallery</a>
+        <a href="Pages/Contact/contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+    </nav>
     <div class="headerImages">
         <p class="headerDescription"> A Shoothing Stay With Marina Dubai</p>
     </div>
