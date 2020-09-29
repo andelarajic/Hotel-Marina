@@ -1,5 +1,6 @@
 
 .image {
+
   border: 7px solid white;
   
 }
@@ -8,8 +9,11 @@
   opacity: 0.5;
 }
 
-@media (max-width:800px) {
-  .gallery-item {
-    width: 100%;
-  }
+@media (max-width:600px) {
+.gallery-item {
+  width: 100%;
+}
+.image {
+  width: 100%;
+}
 }
