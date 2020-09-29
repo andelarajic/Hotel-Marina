@@ -33,24 +33,22 @@
 }
 
 .descriptionText {
-  text-align: center;
+
   font-family: Raleway, sans-serif;
-  padding: 50px 25px;
+  
 }
 
 .descriptionText h1 {
+  text-align: center;
   font-size: 50px;
   font-weight: 100;
-  text-decoration: underline;
-  text-underline-position: under;
-  text-underline-offset: 15px;
-  text-decoration-thickness: 1px;
   margin-bottom: 75px;
 }
 
 .descriptionText p {
   font-size: 20px;
   font-weight: 100;
+  text-align: center;
 }
 
 .infoDiningBackground {
@@ -61,7 +59,6 @@
 
 #infoDiningTransbox {
   background:rgba(255,255,255,0.7);
-  padding:35px;
   max-width: 500px;
   height: 750px;
    
@@ -92,10 +89,6 @@
   top: -50px;
   font-family: Raleway, sans-serif;
   font-weight: 100;
-  text-decoration: underline;
-  text-underline-position: under;
-  text-underline-offset: 15px;
-  text-decoration-thickness: 1px;
   text-align: start;
   
 }

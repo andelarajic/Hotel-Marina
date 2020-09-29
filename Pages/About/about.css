@@ -15,10 +15,6 @@
 .descriptionText h1 {
   font-size: 50px;
   font-weight: 100;
-  text-decoration: underline;
-  text-underline-position: under;
-  text-underline-offset: 15px;
-  text-decoration-thickness: 1px;
   margin-bottom: 75px;
 }
 
@@ -28,9 +24,12 @@
 }
 
 #aboutInfo {
+  
   height: 600px;
   width: 100%;
+ 
 }
+
 
 #aboutInfo2 {
   width: 100%;
@@ -65,10 +64,6 @@
   font-size: 50px;
   font-family:   Raleway, sans-serif;
   font-weight: 100;
-  text-decoration: underline;
-  text-underline-position: under;
-  text-underline-offset: 15px;
-  text-decoration-thickness: 1px;
   top: 50px;
 }
 
@@ -78,6 +73,74 @@
   font-size: 20px;
   font-family:   Raleway, sans-serif;
   font-weight: 300;
-  padding: 10px;
   top: 60px;
+}
+@media (max-width:500px) {
+  #aboutInfo {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 200px;
+  }
+  .aboutImageRight img {
+    width: 100%;
+  }
+  .aboutText h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -20px;
+
+    
+  }
+  .aboutText p  {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    top:-10px;
+   
+  }
+}
+@media (max-width:500px) {
+  #aboutInfo2 {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 200px;
+   
+  }
+  .aboutImageLeft img {
+    width: 100%;
+  }
+  .aboutText h1 {
+    text-align: center;
+  }
+  .aboutText p  {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    top:-10px;
+  }
+}
+@media (max-width:500px) {
+  #aboutInfo3 {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 200px;
+   
+  }
+  .aboutImageRight img {
+    width: 100%;
+  }
+  .aboutText h1 {
+    text-align: center;
+  }
+  .aboutText p  {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    top:-40px;
+  }
 }
