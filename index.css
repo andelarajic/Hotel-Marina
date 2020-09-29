@@ -62,10 +62,9 @@
 #infoDiningTransbox {
   background:rgba(255,255,255,0.7);
   padding:35px;
-  text-align:center;
-  width: 500px;
-  height: 600px;
-  transform: translate(100px, 100px); 
+  max-width: 500px;
+  height: 750px;
+   
 }
 
 
@@ -79,11 +78,11 @@
 
 .infoDiningBackground h2 {
   position: relative;
+  text-align: start;
   font-size: 20px;
   font-weight: 100;
   color: black;
-  top: -50px;
-  left: -160px;
+  top: -30px;
   font-family: Raleway, sans-serif;
 }
 
@@ -115,3 +114,4 @@ button {
   color: white;
   font-size: 20px;
 }
+

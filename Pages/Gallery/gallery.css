@@ -1,13 +1,8 @@
-.gallery-item {
-  display: list-item;
- justify-content: space-around;
-padding: 80px;
 
-  
-}
 
 .image {
   border: 7px solid white;
+  
 }
 
 .image:hover {
