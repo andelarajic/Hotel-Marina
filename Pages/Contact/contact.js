@@ -10,10 +10,12 @@ function validateForm() {
     if(document.contactForm.email.value.length <= 0) {
         alert("Email must be filled out");
         return false;
+
     } else {
-        const email = document.contactForm.email.value;
-        ValidateEmail(email);
-        validateEmailFormat(email);
+        if (document.contactForm.email.validity.typeMismatch) {
+            alert("I am expecting an e-mail address!");
+            return false;
+        }
     }
     if(document.contactForm.phone.value.length <= 0) {
         alert("Phonenumber must be filled out");
@@ -23,15 +25,5 @@ function validateForm() {
         alert("Please accept the Privacy Policy");
         return false;
     }
-}
-
-function ValidateEmail(mail) 
-{
- if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(mail))
-  {
-    return (true)
-  }
-    alert("You have entered an invalid character in your email address!")
-    return (false)
 }
 
