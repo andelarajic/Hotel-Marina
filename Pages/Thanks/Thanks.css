@@ -1,0 +1,11 @@
+p {
+  font-size: 50px;
+  font-weight: 100;
+}
+.button {
+  width: 100px;
+  height: 30px;
+  background-color: #185C5E;
+  color: white;
+  font-size: 10px;
+}
