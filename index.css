@@ -6,7 +6,7 @@
     backface-visibility: hidden;
     animation: headerImages 15s linear infinite;
     animation-timing-function: step-end;
-    background-image: url("Images/hotel3pool.jpg");
+    background-image: url("Images/backgroundHotel.jpg");
     margin-top: 0;
     display: flex;
     background-position: 60% 50%;
@@ -14,7 +14,7 @@
 
 @keyframes headerImages {
   33% {
-    background-image: url("/Images/hotela.jpg");
+    background-image: url("/Images/palmIsland.jpg");
   }
   66% {
     background-image: url("/Images/see.jpg");
@@ -29,7 +29,7 @@
   font-weight: 100;
   color: white;
   text-shadow: 3px 3px #000000;
-  padding-top: 300px;
+  padding-top: 500px;
 }
 
 .descriptionText {
@@ -53,7 +53,7 @@
 }
 
 .infoDiningBackground {
-  background-image: url("Images/hotela.jpg");
+  background-image: url("Images/hotelAtlantis2.jpg");
   background-size: cover;
   height: 800px;
 }
