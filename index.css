@@ -113,6 +113,9 @@ button {
 
 @media (max-width:700px) {
 
+  .headerImages {
+    background-position: 60%;
+  }
   .headerDescription{
     padding-top: 300px;
   }
