@@ -1,14 +1,13 @@
 
-.image {
-
-  border: 7px solid white;
-  
+.gallery-item {
+  padding-top: 80px;
 }
-
+.image {
+  border: 7px solid white;
+}
 .image:hover {
   opacity: 0.5;
 }
-
 @media (max-width:600px) {
 .gallery-item {
   width: 100%;

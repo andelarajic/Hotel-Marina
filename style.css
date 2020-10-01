@@ -10,7 +10,6 @@ body {
   width: 100%;
   z-index: 999;
   box-shadow: 0 10px 20px rgba(50,50,50,.60);
-
 }
 
 .topnav a {
@@ -22,8 +21,6 @@ body {
   text-decoration: none;
   font-size: 20px;
 }
-
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -38,15 +35,12 @@ body {
   .topnav a:not(:first-child) {
     display: none;
     
-    
   }
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
-
-
 @media screen and (max-width: 800px) {
   .topnav.responsive a.icon {
    position: absolute;
@@ -59,9 +53,6 @@ body {
     text-align: left;
   }
 }
-
-
-
   .footer {
     height: 180px;
   background-color:#185C5E;
