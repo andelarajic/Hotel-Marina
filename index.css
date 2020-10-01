@@ -49,6 +49,7 @@
   font-size: 20px;
   font-weight: 100;
   text-align: center;
+  padding-bottom: 75px;
 }
 
 .infoDiningBackground {
@@ -62,7 +63,7 @@
   background:rgba(255,255,255,0.7);
   max-width: 500px;
   height: 750px;
-   margin: 90px;
+  
    padding:25px;
 }
 
@@ -112,7 +113,6 @@ button {
 
 @media (max-width:700px) {
   #infoDiningTransbox {
-    position: relative;
   background:rgba(255,255,255,0.7);
   max-width: 500px;
   height: 750px;
