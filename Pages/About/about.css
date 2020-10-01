@@ -49,7 +49,7 @@
 
 .aboutImageLeft img {
   float: left;
-  width: 50%;
+  width: 100%;
   height: 600px;
 }
 
@@ -102,6 +102,7 @@
   }
   .aboutImageRight img {
     width: 100%;
+    height: 500px;
   }
   .aboutText{
     position: relative;
@@ -113,7 +114,7 @@
     float: left;
     text-align: center;
     font-size: 15px;
-    top:-0;
+    top:-4;
   }
   .aboutText p  {
     position: relative;
@@ -121,7 +122,7 @@
     width: 100%;
     text-align: center;
     font-size: 10px;
-    top: -150px;
+    top: -100px;
   }
 }
 @media (max-width:500px) {
@@ -132,7 +133,8 @@
    
   }
   .aboutImageLeft img {
-    width: 100%; 
+    width: 100%;
+    height: 500px; 
   }
 }
 @media (max-width:500px) {
@@ -143,7 +145,7 @@
    
   }
   .aboutImageRight img {
-    width: 100%;
+    height: 500px;;
   }
   .aboutText3 h1 {
     position: relative;
@@ -151,7 +153,7 @@
     float: left;
     text-align: center;
     font-size: 15px;
-    top:-5px;
+    top:40px;
   }
   .aboutText3 p  {
     position: relative;
@@ -159,6 +161,6 @@
     float: left;
     text-align: center;
     font-size: 10px;
-    top:-185px;
+    top:-135px;
   }
 }
