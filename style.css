@@ -1,5 +1,5 @@
 body {
-  margin: 0;  
+  margin: 0;
 }
 
 .topnav {
@@ -9,7 +9,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 999;
-  box-shadow: 0 10px 20px rgba(50,50,50,.60);
+  box-shadow: 0 10px 20px rgba(50, 50, 50, .60);
 }
 
 .topnav a {
@@ -21,6 +21,7 @@ body {
   text-decoration: none;
   font-size: 20px;
 }
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -34,44 +35,49 @@ body {
 @media screen and (max-width: 800px) {
   .topnav a:not(:first-child) {
     display: none;
-    
+
   }
+
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
+
 @media screen and (max-width: 800px) {
   .topnav.responsive a.icon {
-   position: absolute;
+    position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
 }
-  .footer {
-    height: 180px;
-  background-color:#185C5E;
+
+.footer {
+  height: 180px;
+  background-color: #185C5E;
   margin: 0;
-  display: flex; 
+  display: flex;
   justify-content: center;
   width: 100%;
-  }
-  .copy {
-  
+}
+
+.copy {
+
   font-family: Raleway, sans-serif;
   color: white;
   text-align: center;
-  
-  }
-  
-  .icons {
-    color: white;
-    padding: 40px;
-    text-align: center;
-    
-  }
+
+}
+
+.icons {
+  color: white;
+  padding: 40px;
+  text-align: center;
+
+}

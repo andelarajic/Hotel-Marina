@@ -1,21 +1,22 @@
 .headerImages {
-    height: 1000px;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: headerImages 15s linear infinite;
-    animation-timing-function: step-end;
-    background-image: url("Images/backgroundHotel.jpg");
-    margin-top: 0;
-    display: flex;
-    background-position: 60% 50%;
+  height: 1000px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: headerImages 15s linear infinite;
+  animation-timing-function: step-end;
+  background-image: url("Images/backgroundHotel.jpg");
+  margin-top: 0;
+  display: flex;
+  background-position: 60% 50%;
 }
 
 @keyframes headerImages {
   33% {
     background-image: url("/Images/palmIsland.jpg");
   }
+
   66% {
     background-image: url("/Images/see.jpg");
   }
@@ -25,7 +26,7 @@
   width: 100%;
   text-align: center;
   font-size: 80px;
-  font-family:   Raleway, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 100;
   color: white;
   text-shadow: 3px 3px #000000;
@@ -35,7 +36,7 @@
 .descriptionText {
 
   font-family: Raleway, sans-serif;
-  
+
 }
 
 .descriptionText h1 {
@@ -60,18 +61,17 @@
 
 #infoDiningTransbox {
   position: relative;
-  background:rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
   max-width: 500px;
   height: 750px;
-  
-   padding:25px;
+  padding: 25px;
 }
 
 
 .infoDiningBackground h3 {
   text-align: start;
   font-weight: 500;
-  color:black;
+  color: black;
   font-size: 60px;
   font-family: Raleway, sans-serif;
 }
@@ -88,13 +88,14 @@
 
 .infoDiningBackground h1 {
   position: relative;
-  font-size:50px ;
+  font-size: 50px;
   top: -50px;
   font-family: Raleway, sans-serif;
   font-weight: 100;
   text-align: start;
-  
+
 }
+
 .infoDiningBackground p {
   text-align: start;
   font-family: Raleway, sans-serif;
@@ -102,7 +103,7 @@
   font-size: 20px;
   padding: 10px;
 }
- 
+
 button {
   width: 200px;
   height: 60px;
@@ -116,14 +117,16 @@ button {
   .headerImages {
     background-position: 60%;
   }
-  .headerDescription{
+
+  .headerDescription {
     padding-top: 300px;
   }
+
   #infoDiningTransbox {
-  background:rgba(255,255,255,0.7);
-  max-width: 500px;
-  height: 750px;
-  margin:0;
-  
-}
+    background: rgba(255, 255, 255, 0.7);
+    max-width: 500px;
+    height: 750px;
+    margin: 0;
+
+  }
 }

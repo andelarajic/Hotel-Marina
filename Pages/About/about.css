@@ -1,11 +1,10 @@
-
 .headerImage {
   background-image: url("/Images/atlantishotel.jpg");
   background-position: 60% 50%;
   background-size: cover;
   height: 750px;
 }
-   
+
 .descriptionText {
   text-align: center;
   font-family: Raleway, sans-serif;
@@ -24,11 +23,12 @@
 }
 
 #aboutInfo {
-  
+
   height: 600px;
   width: 100%;
- 
+
 }
+
 #aboutInfo2 {
   width: 100%;
   height: 600px;
@@ -60,7 +60,7 @@
   height: 100%;
   text-align: center;
   font-size: 50px;
-  font-family:   Raleway, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 100;
   top: 50px;
 }
@@ -69,7 +69,7 @@
   position: relative;
   text-align: center;
   font-size: 20px;
-  font-family:   Raleway, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 300;
   top: 60px;
 }
@@ -81,7 +81,7 @@
   height: 100%;
   text-align: center;
   font-size: 50px;
-  font-family:   Raleway, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 100;
   top: 50px;
 }
@@ -90,33 +90,38 @@
   position: relative;
   text-align: center;
   font-size: 20px;
-  font-family:   Raleway, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 300;
   top: 60px;
 }
+
 @media (max-width:500px) {
   #aboutInfo {
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 200px;
   }
+
   .aboutImageRight img {
     width: 100%;
     height: 500px;
   }
-  .aboutText{
+
+  .aboutText {
     position: relative;
-    
+
   }
+
   .aboutText h1 {
     position: relative;
     width: 100%;
     float: left;
     text-align: center;
     font-size: 15px;
-    top:-4;
+    top: -4;
   }
-  .aboutText p  {
+
+  .aboutText p {
     position: relative;
     float: left;
     width: 100%;
@@ -125,42 +130,49 @@
     top: -100px;
   }
 }
+
 @media (max-width:500px) {
   #aboutInfo2 {
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 200px;
-   
+
   }
+
   .aboutImageLeft img {
     width: 100%;
-    height: 500px; 
+    height: 500px;
   }
 }
+
 @media (max-width:500px) {
   #aboutInfo3 {
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 200px;
-   
+
   }
+
   .aboutImageRight img {
-    height: 500px;;
+    height: 500px;
+    ;
   }
+
   .aboutText3 h1 {
     position: relative;
     width: 100%;
     float: left;
     text-align: center;
     font-size: 15px;
-    top:40px;
+    top: 40px;
   }
-  .aboutText3 p  {
+
+  .aboutText3 p {
     position: relative;
     width: 100%;
     float: left;
     text-align: center;
     font-size: 10px;
-    top:-135px;
+    top: -135px;
   }
 }
