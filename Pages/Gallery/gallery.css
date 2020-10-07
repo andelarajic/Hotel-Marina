@@ -1,13 +1,13 @@
-
 .gallery-item {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 80px;
-  
+
 }
+
 .image {
-width: 350px;
-height: 300px;
-margin: 10px;
+  width: 350px;
+  height: 300px;
+  margin: 10px;
 }
