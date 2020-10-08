@@ -47,7 +47,6 @@
 .form {
   width: 100%;
   text-align: center;
-
 }
 
 .form h1 {
@@ -55,7 +54,6 @@
   font-weight: 100;
   font-size: 50px;
   padding: 30px;
-
 }
 
 .inputSection {
@@ -133,4 +131,8 @@
   .inputSection {
     width: 100%;
   }
+ .inputSection {
+   display: inline;
+   margin-left: -30px;
+ }
 }
